@@ -10,3 +10,11 @@ updates:
       # Separate sections of the branch name with a hyphen
       # for example, `dependabot-npm_and_yarn-next_js-acorn-6.4.1`
       separator: "-"
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    pull-request-branch-name:
+      # Separate sections of the branch name with a hyphen
+      # for example, `dependabot-npm_and_yarn-next_js-acorn-6.4.1`
+      separator: "-"
