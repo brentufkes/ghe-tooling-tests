@@ -37,8 +37,8 @@ jobs:
         env:
           GH_SECURITY_TOKEN: '${{ secrets.GH_TOKEN }}'
           JIRA_TOKEN: '${{ secrets.JIRA_TOKEN }}'
-          JIRA_HOST: 'https://redoxengine.atlassian.net/'
+          JIRA_HOST: 'https://redoxengine.atlassian.net'
           JIRA_USER: '${{ secrets.JIRA_USER }}'
           JIRA_PROJECT: 'SEC'
-          JIRA_ISSUE_TYPE: Security
+          JIRA_ISSUE_TYPE: 'Bug'
           JIRA_WATCHERS: bufkes@redoxengine.com
