@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "testing vulnerable package.json",
   "dependencies": {
-    "async": "2.6.1",
+    "async": "2.6.4",
     "aws-sdk": "2.218.0",
     "glob": "7.1.3",
     "lodash": "4.17.21"
